@@ -7,3 +7,5 @@ curl -k "https://${GO_MASTER_HOST}:${GO_MASTER_PORT}/go/api/backups" \
       -H 'Confirm: true' \
       -H 'Accept: application/vnd.go.cd.v1+json' \
       -X POST
+
+echo $?
